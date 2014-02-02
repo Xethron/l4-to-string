@@ -10,7 +10,7 @@ class L4ToString extends ToString
 		$queryString = "";
 		foreach ( $queryLog as $i => $query )
 		{
-			$queryString .= "#$i ". L4ToString::queryToString( $query['query'], $query['bindings'], $query['time'] ) ."\n";
+			$queryString .= "#$i ". L4ToString::query( $query['query'], $query['bindings'], $query['time'] ) ."\n";
 		}
 		return $queryString;
 	}
