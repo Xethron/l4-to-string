@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"xethron/to-string": "1.0.0"
+		"xethron/to-string": "1.*"
 	},
 	"autoload": {
 		"psr-0": {
