@@ -36,7 +36,7 @@ class L4ToString extends ToString
 		$query = str_replace(array('%', '?'), array('%%', '%s'), $query);
 		$query = vsprintf($query, $bindings);
 
-		return $query .";\n\t". json_encode( $data );
+		return $query .";\n    ". json_encode( $data );
 	}
 
 }
