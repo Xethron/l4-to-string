@@ -1,6 +1,8 @@
 L4ToString
 ========
 
+[![Latest Stable Version](https://poser.pugx.org/xethron/l4-to-string/v/stable.png)](https://packagist.org/packages/xethron/l4-to-string) [![Total Downloads](https://poser.pugx.org/xethron/l4-to-string/downloads.png)](https://packagist.org/packages/xethron/l4-to-string) [![Latest Unstable Version](https://poser.pugx.org/xethron/l4-to-string/v/unstable.png)](https://packagist.org/packages/xethron/l4-to-string) [![License](https://poser.pugx.org/xethron/l4-to-string/license.png)](https://packagist.org/packages/xethron/l4-to-string)
+
 Logging variables can sometimes cause huge logs, especially if you want to email those logs to yourself.
 
 On the other hand, logging exceptions with the default __toString can will most likely give you just enough information to confuse the hell out of you!
